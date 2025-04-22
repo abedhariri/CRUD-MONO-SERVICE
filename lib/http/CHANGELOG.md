@@ -1,5 +1,11 @@
 # http
 
+## 2.0.0
+
+### Major Changes
+
+- 2494efa: addded private property to package json
+
 ## 1.0.1
 
 ### Patch Changes
