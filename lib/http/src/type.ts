@@ -5,4 +5,5 @@ export interface ErrorHandlerI {
   unAuthorized: () => void;
   internalServerError: () => void;
   badRequest: () => void;
+  notAcceptable: () => void;
 }

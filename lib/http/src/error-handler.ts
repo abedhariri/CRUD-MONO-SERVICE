@@ -20,4 +20,7 @@ export const ErrorHandler = (): ErrorHandlerI => ({
   badRequest: function (): void {
     throw new AppError("BAD_REQUEST", 400);
   },
+  notAcceptable: function (): void {
+    throw new AppError("NOT_ACCEPTABLE", 406);
+  },
 });
