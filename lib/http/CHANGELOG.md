@@ -1,5 +1,11 @@
 # http
 
+## 2.3.0
+
+### Minor Changes
+
+- ec6c563: added more errors
+
 ## 2.2.0
 
 ### Minor Changes
