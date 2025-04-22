@@ -24,6 +24,6 @@ export const ErrorHandler = (): ErrorHandlerI => ({
     throw new AppError("NOT_ACCEPTABLE", 406);
   },
   proxyAuthenticationRequired: function (): void {
-    return;
+    throw new AppError("PROXY_AUTHENTICATION_REQUIRED", 407);
   },
 });
