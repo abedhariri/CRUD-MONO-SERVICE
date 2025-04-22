@@ -1,5 +1,11 @@
 # http
 
+## 2.1.1
+
+### Patch Changes
+
+- eba0fa2: added one more property
+
 ## 2.1.0
 
 ### Minor Changes
