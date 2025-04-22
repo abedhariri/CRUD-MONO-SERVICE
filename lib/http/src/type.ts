@@ -6,4 +6,5 @@ export interface ErrorHandlerI {
   internalServerError: () => void;
   badRequest: () => void;
   notAcceptable: () => void;
+  proxyAuthenticationRequired: () => void;
 }
