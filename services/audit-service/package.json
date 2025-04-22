@@ -12,8 +12,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.1.0",
     "questionnaire-package": "workspaces:*",
+    "http": "workspaces:*",
+    "express": "^5.1.0",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
