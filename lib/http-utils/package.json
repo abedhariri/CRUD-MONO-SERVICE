@@ -1,6 +1,6 @@
 {
   "name": "http-utils",
   "version": "2.3.1",
-  "private": true,
+  "private": false,
   "main": "index.ts"
 }
