@@ -17,4 +17,7 @@ export const ErrorHandler = (): ErrorHandlerI => ({
   internalServerError: function (): void {
     throw new AppError("INTERNAL_SERVER_ERROR", 500);
   },
+  badRequest: function (): void {
+    throw new AppError("BAD_REQUEST", 400);
+  },
 });
