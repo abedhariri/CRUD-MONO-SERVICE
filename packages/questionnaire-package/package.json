@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "main": "./src/index.ts",
   "dependencies": {
-    "http": "workspaces:*"
+    "http": "2.3.0"
   },
   "private": true
 }
