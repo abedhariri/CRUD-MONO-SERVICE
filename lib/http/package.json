@@ -1,5 +1,6 @@
 {
   "name": "http",
   "version": "1.0.1",
+  "private": true,
   "main": "index.ts"
 }
