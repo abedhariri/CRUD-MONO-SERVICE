@@ -1,9 +1,9 @@
 import express from "express";
 import { errorHandlerMiddleware } from "./middlewares/error";
 
-import { ErrorHandler } from "@lib/http-utils/src/error-handler";
 import { OracleRepo } from "@packages/questionnaire-package/src/repo/repo";
 import { Questionnaire } from "@packages/questionnaire-package/src";
+import { ErrorHandler } from "http-utils/src/error-handler";
 
 const app = express();
 const port = 3001;
