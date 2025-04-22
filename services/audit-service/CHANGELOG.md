@@ -1,5 +1,12 @@
 # audit-service
 
+## 2.0.5
+
+### Patch Changes
+
+- Updated dependencies
+  - questionnaire-package@1.0.6
+
 ## 2.0.4
 
 ### Patch Changes

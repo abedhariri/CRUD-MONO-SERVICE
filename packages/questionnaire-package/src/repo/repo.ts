@@ -15,7 +15,7 @@ const defaultQuestionnaire: Questionnaire = {
 };
 
 export const create = async (value: CreateQuestionnaire) => {
-  console.log("Questionnaire created");
+  console.log("Questionnaire createds");
   return "id";
 };
 
