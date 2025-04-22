@@ -1,0 +1,22 @@
+{
+  "name": "retraced-new-way",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@changesets/cli": "^2.29.2"
+  },
+  "workspaces": [
+    "services/*",
+    "packages/*",
+    "lib/*"
+  ]
+}
