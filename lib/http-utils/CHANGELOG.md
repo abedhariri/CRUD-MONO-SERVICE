@@ -1,5 +1,11 @@
 # http
 
+## 2.3.2
+
+### Patch Changes
+
+- 23f25ad: fixed broken function
+
 ## 2.3.1
 
 ### Patch Changes
