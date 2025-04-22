@@ -1,5 +1,0 @@
----
-"http": minor
----
-
-added properties
