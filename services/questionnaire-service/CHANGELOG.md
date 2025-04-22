@@ -1,5 +1,13 @@
 # questionnaire-service
 
+## 2.0.2
+
+### Patch Changes
+
+- a937644: fixed import problems
+- Updated dependencies [a937644]
+  - questionnaire-package@1.0.3
+
 ## 2.0.1
 
 ### Patch Changes
