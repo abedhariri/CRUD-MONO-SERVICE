@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { AppError } from "../../../../lib/http/src/error";
+import { AppError } from "../../../../lib/http-utils/src/error";
 
 export const errorHandlerMiddleware = (err: AppError, req: Request, res: Response, next: NextFunction) => {
   console.error("Error:", err.message);

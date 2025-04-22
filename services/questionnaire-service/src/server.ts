@@ -1,7 +1,7 @@
 import express from "express";
 import { errorHandlerMiddleware } from "./middlewares/error";
 
-import { ErrorHandler } from "@lib/http/src/error-handler";
+import { ErrorHandler } from "@lib/http-utils/src/error-handler";
 import { OracleRepo } from "@packages/questionnaire-package/src/repo/repo";
 import { Questionnaire } from "@packages/questionnaire-package/src";
 

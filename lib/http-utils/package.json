@@ -1,5 +1,5 @@
 {
-  "name": "http",
+  "name": "http-utils",
   "version": "2.3.1",
   "private": true,
   "main": "index.ts"

@@ -1,4 +1,4 @@
-import { ErrorHandlerI } from "@lib/http/src/type";
+import { ErrorHandlerI } from "@lib/http-utils/src/type";
 
 export interface RepoI {
   create: (value: CreateQuestionnaire) => Promise<string>;

@@ -13,7 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "questionnaire-package": "1.0.2",
-    "http": "2.3.1",
+    "http-utils": "2.3.1",
     "express": "^5.1.0",
     "ts-node": "^10.9.2"
   },
