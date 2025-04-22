@@ -1,5 +1,11 @@
 # http
 
+## 2.1.0
+
+### Minor Changes
+
+- ee84164: added more properties
+
 ## 2.0.0
 
 ### Major Changes
