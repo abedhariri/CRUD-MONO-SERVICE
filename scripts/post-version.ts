@@ -1,20 +1,26 @@
-import { spawn } from "child_process";
 import fs from "fs";
 import path from "path";
 
-const changedDirs = ["packages/shared-lib", "apps/service-a", "apps/service-b"];
+const changedDirs = ["packages", "services"];
 
-for (const dir of changedDirs) {
-  const pkg = JSON.parse(fs.readFileSync(path.join(dir, "package.json"), "utf-8"));
-  const target = pkg.publishTarget;
+const releasePackages = (dirs: string[]) => {
+  for (const dir of dirs) {
+    const pkg = JSON.parse(fs.readFileSync(path.join(dir, "package.json"), "utf-8"));
+    const target = pkg.publishTarget;
 
-  if (target === "npm") {
-    console.log(`→ Would publish ${pkg.name} to npm`);
-    spawn(`echo " registry/${pkg.name}:${pkg.version}"`);
+    if (target === "npm") {
+      console.log(`→ Would publish ${pkg.name} to npm`);
+    }
+
+    if (target === "docker") {
+      console.log(`→ Would build Docker image for ${pkg.name}`);
+    }
   }
+};
 
-  if (target === "docker") {
-    console.log(`→ Would build Docker image for ${pkg.name}`);
-    spawn(`echo " registry/${pkg.name}:${pkg.version}"`);
-  }
+for (const element of changedDirs) {
+  const dirs = fs.readdirSync(element).map((entry) => {
+    return path.join(element, entry);
+  });
+  releasePackages(dirs);
 }

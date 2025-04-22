@@ -1,5 +1,13 @@
 # questionnaire-package
 
+## 1.0.5
+
+### Patch Changes
+
+- 6a6e911: added publish target property
+- Updated dependencies [6a6e911]
+  - http-utils@2.3.3
+
 ## 1.0.4
 
 ### Patch Changes

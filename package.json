@@ -7,7 +7,7 @@
   "scripts": {
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "npm run version-packages && npm install && node scripts/post-version.js"
+    "release": "npm run version-packages && npm install && ts-node scripts/post-version.ts"
   },
   "keywords": [],
   "author": "",

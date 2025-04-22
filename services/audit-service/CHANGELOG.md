@@ -1,5 +1,14 @@
 # audit-service
 
+## 2.0.4
+
+### Patch Changes
+
+- 6a6e911: added publish target property
+- Updated dependencies [6a6e911]
+  - questionnaire-package@1.0.5
+  - http-utils@2.3.3
+
 ## 2.0.3
 
 ### Patch Changes
