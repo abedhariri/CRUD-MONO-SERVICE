@@ -11,4 +11,7 @@ export const ErrorHandler = (): ErrorHandlerI => ({
   unAuthenticated: () => {
     throw new AppError("UNAUTHENTICATED", 403);
   },
+  unAuthorized: function (): void {
+    throw new AppError("UNAUTHORIZED", 401);
+  },
 });
