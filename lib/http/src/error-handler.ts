@@ -14,4 +14,7 @@ export const ErrorHandler = (): ErrorHandlerI => ({
   unAuthorized: function (): void {
     throw new AppError("UNAUTHORIZED", 401);
   },
+  internalServerError: function (): void {
+    throw new AppError("INTERNAL_SERVER_ERROR", 500);
+  },
 });
